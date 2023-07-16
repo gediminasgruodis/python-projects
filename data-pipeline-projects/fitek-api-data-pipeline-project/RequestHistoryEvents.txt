@@ -1,0 +1,32 @@
+{
+    "AuthorizationToken": "",
+    "IntegratorId": "",
+    "RequestId": "7661968D-B4ED-4439-9BE1-00B5EB91E239",
+    "Extensions": [],
+    "QueryParams": {
+        "Debug": true,
+       /* "InternalInvoiceIds": [
+            "12353"
+        ],*/
+        "InvoiceStatus": [
+            "New",
+            "InApproval",
+            "NotForExport",
+            "PendingExport",
+            "Exported",
+            "Deleted",
+            "Rejected"
+        ],
+        "HistoryEvents": [
+            {
+                "HistoryAction": [
+                    "InsertedInvoice"
+                ],
+            	"EventDateTimeGreaterThanUTC": "2022-03-24 13:13Z",
+				"EventDateTimeGreaterThanEqualUTC": "2022-03-24 13:15Z",
+				"EventDateTimeLessThanUTC": "2022-03-25 14:13Z",
+				"EventDateTimeLessThanEqualUTC": "2022-03-25 14:15Z"
+            }
+        ]
+    }
+}

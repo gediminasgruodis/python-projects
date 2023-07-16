@@ -1,0 +1,20 @@
+USE Main
+
+CREATE TABLE RealEstatePrices(
+	[TimeStamp] DATETIME,
+	[Price] FLOAT,
+	[Area] FLOAT,
+	[PriceSqm] FLOAT,
+	[Rooms] FLOAT,
+	[Type] VARCHAR(256),
+        [ApartmentFloor] FLOAT,
+	[TotalFloors] FLOAT,
+	[Year] VARCHAR(256),
+	[Link] VARCHAR(256),
+	[City] VARCHAR(256),
+	[Neighborhood] VARCHAR(256),
+	[Street] VARCHAR(256)
+	);
+
+GO
+

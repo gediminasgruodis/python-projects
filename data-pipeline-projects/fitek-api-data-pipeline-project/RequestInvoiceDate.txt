@@ -1,0 +1,22 @@
+{
+  "AuthorizationToken": "cfe9ff3c-aeac-4161-8386-545f3d9bbaed", 
+  "IntegratorId": "5d4b4b5c-558f-4088-a13c-f6166de24557",
+  "RequestId": "da17020e7dc1488681ebacc9156c1754",
+  "Extensions": [], 
+  "QueryParams": { 
+    "Debug": false, // Jei debug false - saskaita taps eksportuota | jei true - liks eksportuojama busenos
+    "InvoiceStatus": [ 
+       "New", 
+       "InApproval", //Patvirtinimo sekoje
+       "NotForExport", //Neeksportuojama
+       "PendingExport", //Eksportuojama
+       "Exported", //Eksportuota (jei debug-false tai tampa eksportuota)
+       "Deleted", // Istrinta
+       "Rejected" // Atsakta
+    ],
+    "InvoiceDateGreaterThanEqualUTC": "2022-05-01", // Periodo pasirinkimai kokias saskaitas noresite gauti
+    "InvoiceDateLessThanEqualUTC": "2022-05-01",
+    "InvoiceDateGreaterThanUTC": "2022-05-01",
+    "InvoiceDateLessThanUTC": "2022-05-01"
+    }
+}
